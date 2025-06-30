@@ -11,3 +11,171 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  position: sticky;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.head h1 {
+  color: #2E2E2E;
+}
+
+.head h4 {
+  color: #2b855b;
+}
+
+.head .img1 {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.collapse  .nav-item {
+  gap: 20px;
+  margin-right: 25px;
+ 
+}
+.collapse .nav-item a{
+   text-transform: capitalize;
+}
+.navbar{
+  background-color: #fefefe;
+}
+.img2{
+  margin-top: 20px;
+  height: 600px;
+}
+
+.hero img{
+  width: 900px;
+  height: 600px;
+}
+
+.hero{
+  text-align: center;
+  align-items: center;
+}
+.middle{
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.middle .btnn{
+  gap: 30px;
+}
+.middle .btnn button{
+ width: 300px;
+ height: 60px;
+ margin-left: 20px;
+ margin-right: 20px;
+ font-weight: 700;
+ font-size: larger;
+ padding: 10px ;
+}
+html{
+  scroll-behavior: smooth;
+}
+.btn-secondary{
+  background-color: #2b855b;
+}
+.btn-primary{
+  background-color: #A78BFA;
+  border: none;
+}
+
+.for{
+  margin-top: 70px;
+}
+.for .mid{
+  margin-top: 70px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.emoji{
+  font-size: 40px;
+}
+
+.mid #head{
+  color: #A78BFA;
+}
+.for .mid p{
+  color: #2E2E2E;
+}
+ #para{
+  margin-top: 30px;
+}
+.text-center span{
+   font-size: 2rem;
+   color: #A78BFA;
+}
+
+.for .text-center{
+  position: relative; margin: 3rem 0;
+}
+
+.for .text-center hr{
+  border-top: 2px solid #2E2E2E; width: 80%; margin: 0 auto;
+}
+.for .text-center h2{
+  position: absolute; top: -1rem; left: 50%; transform: translateX(-50%); background: #fff; padding: 0 1rem;
+}
+
+.footerH{
+  
+  text-align: center;
+  justify-content: center;
+  margin-top: 70px;
+   background-color:  #fbfbfb;
+}
+.footer{
+display: flex;
+  flex-direction: row;
+}
+.footer img{
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+}
+
+.footer .col1{
+  margin: 50px;
+}
+
+.footer .col2{
+   margin: 50px;
+   margin-left: 0px;
+
+}
+.footer .col3{
+  margin: 50px;
+}
+.footer .col4{
+  margin: 50px;
+}
+
+.col1 #col1{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.col2 a{
+  text-decoration: none;
+  color: #2E2E2E;
+  font-size: 20px;
+}
