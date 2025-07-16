@@ -12,8 +12,8 @@ function Home() {
 
       <div className='middle' id='help-section'>
         <div className="btnn">
-          <button type="button" class="btn btn-primary">NEED HELP</button>
-          <button type="button" class="btn btn-secondary">LEND HELP</button>
+          <button type="button" class="btn btn-primary"><a href="/needhelp">NEED HELP</a></button>
+          <button type="button" class="btn btn-secondary"><a href="/lendhelp">LEND HELP</a></button>
         </div>
 
         <div className="for">
@@ -53,38 +53,7 @@ function Home() {
 
       </div>
 
-<div className='footerH'>
-      <div className="footer">
-        <div className='col1'>
-          <div id='col1'>
- <img src={kind} alt="" />
-             <h3>KindHood</h3>
-          </div>
-         
-             <p>Bringing people together to help each other in local communities.</p>
-        </div>
-           <div className='col2'>
-            <h3>Links</h3>
-            <a href="/"><h6>Home</h6></a>
-            <a href="/need"><h6>Need Help</h6></a>
-            <a href="/lend"><h6>Lend Help</h6></a>
-            <a href="/login"><h6>Login</h6></a>
-            <a href="/sign"><h6>SignUp</h6></a>
-           </div>
-           
-           <div className='col3'>
-            <h3>Contact Us</h3>
-           <p>Instagram</p>
-           <p>Twitter</p>
-           </div>
-           <div className='col4'>
-            <h3>Legal</h3>
-           <p>Terms of Service</p>
-           <p>Provacy Policy</p>
-           </div>
-      </div>
-      <p>© 2025 KindHood. All rights reserved.</p>
-      </div>
+      
     </>
   )
 }
